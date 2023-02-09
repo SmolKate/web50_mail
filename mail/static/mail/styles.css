@@ -1,0 +1,54 @@
+textarea {
+    min-height: 200px;        
+}
+
+.add_mail {
+    border: 2px solid #007bff;
+    border-radius: 2px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add_mail:hover {
+    border: 3px solid #007bff;
+    cursor: pointer;
+    padding: 1px;
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+}
+
+#mail_sender {
+    padding-right: 15px;
+    font-weight: bold;
+    overflow: hidden;
+    width: 200px;
+    text-overflow: ellipsis;
+}
+
+#mail_timestamp {
+    font-size: smaller;    
+}
+
+#mail_subject {
+    overflow: hidden;
+    width: 200px;
+    text-overflow: ellipsis;
+}
+
+#view {
+    width: 90%;
+    border: 0px;
+}
+
+#compose-error {
+    color: rgb(199, 52, 52);
+    font-size: small;
+    padding-bottom: 10px;
+}
+  
